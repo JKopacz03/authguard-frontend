@@ -1,0 +1,103 @@
+.containerSignin{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 180px;
+    background-color: #fff;
+    padding-bottom: 30px;
+    width: 600px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.text{
+    color: rgb(53, 53, 53);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.inputs{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 380px;
+    height: 60px;
+    padding-left: 10px;
+    background: #eaeaea;
+    border-radius: 6px;
+}
+
+.input img{
+    margin: 0px 30px;
+
+}
+
+.input input{
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #3f3f3f;
+    font-size: 19px;
+
+}
+
+.sumbitContainer{
+    display: flex;
+    align-items: center;
+    margin: 50px auto;
+    background: none;
+    border: none;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    border-radius: 10px;
+    background-color: rgba(17, 240, 169, 0.897);
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.error{
+    color: rgb(165, 58, 58);
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+.register{
+    margin-top: 20px;
+    border: none;
+    background: none;
+}
+
+.registerT{
+    font-size: 18px;
+}
+
+.registerT:hover{
+    color: #2FA6F7;
+}
